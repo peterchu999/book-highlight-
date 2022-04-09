@@ -1,9 +1,6 @@
-import {
-  AIRTABLE_BASE_KEY,
-  AIRTABLE_HIGHLIGHTS_TABLE_KEY,
-} from "../../constants";
-import { getRecordById } from "../../utils/airtable";
-import { response } from "../../utils/response";
+import { AIRTABLE_BASE_KEY, AIRTABLE_HIGHLIGHTS_TABLE_KEY } from "../constants";
+import { getRecordById } from "../utils/airtable";
+import { response } from "../utils/response";
 
 export const getHighlightById = async (recordId: string) => {
   try {
