@@ -1,0 +1,4 @@
+export const AIRTABLE_API_KEY = process.env.AIRTABLE_API_KEY;
+export const AIRTABLE_BASE_KEY = process.env.AIRTABLE_BASE_KEY;
+export const AIRTABLE_HIGHLIGHTS_TABLE_KEY =
+  process.env.AIRTABLE_HIGHLIGHTS_TABLE_KEY;
