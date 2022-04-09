@@ -1,5 +1,6 @@
 [build]
     command = "gatsby build"
+    functions = "functions/"
     publish = "public"
 
 
@@ -7,7 +8,7 @@
     command = "gatsby develop"
     port = 8000
 
-[[plugins]]
-  package = "@netlify/plugin-gatsby"
-
-[functions]
+[[redirects]]
+    from = "/api/*"
+    to = "/.netlify/functions/:splat"
+    status = 200

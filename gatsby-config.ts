@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `book-highlight`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-netlify"],
+  plugins: ["gatsby-plugin-react-helmet"],
 };
 
 export default config;
