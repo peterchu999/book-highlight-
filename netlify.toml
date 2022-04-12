@@ -1,6 +1,5 @@
 [build]
     command = "gatsby build"
-    functions = "functions/"
     publish = "public"
 
 [functions]
@@ -8,8 +7,7 @@
     node_bundler = "esbuild"
 
 [dev]
-    command = "gatsby develop"
-    port = 8000
+    port = 3000
 
 [[redirects]]
     from = "/api/*"

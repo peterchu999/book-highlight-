@@ -14,7 +14,10 @@ export const updateHighlight = async (recordId: string, body: string) => {
         favorite,
       },
     });
-    return response({ success: true });
+    return response({
+      success: true,
+      highligth: { id: recordId, contented, favorite },
+    });
   } catch (error) {
     return response(error, { statusCode: 400 });
   }

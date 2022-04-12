@@ -1,0 +1,7 @@
+.navbar-item-active {
+  @apply dark:text-slate-200 dark:border-slate-200 text-slate-800 border-slate-800 border-b-4;
+}
+
+.navbar-item {
+  @apply px-5 py-2 hover:dark:text-slate-200 hover:text-slate-800 transition;
+}
